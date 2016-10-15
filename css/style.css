@@ -1,0 +1,60 @@
+.no-padding {
+  padding: 0; }
+
+.no-margin {
+  margin: 0; }
+
+.no-padding-right {
+  padding-right: 0; }
+
+.no-border-radius {
+  border-radius: 0px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-top-5 {
+  margin-top: 5px; }
+
+.width-full {
+  width: 100%; }
+
+.img-circle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px; }
+
+.background-gray-soft {
+  background: #CCC; }
+
+.background-marca {
+  background: #c2c800; }
+
+nav i {
+  color: #fff; }
+nav a {
+  color: #fff;
+  font-weight: bold; }
+  nav a:hover {
+    text-decoration: none; }
+
+.color-link a {
+  color: #fff; }
+  .color-link a:not(.active-btn) {
+    color: #444; }
+
+.active-btn {
+  background-color: #444; }
+
+.cor-marca {
+  color: #c2c800; }
+
+.cor-verde {
+  background: #5EB70B;
+  color: #fff; }
+
+.font-text p {
+  font-size: 13px;
+  color: #999; }
+
+/*# sourceMappingURL=style.css.map */

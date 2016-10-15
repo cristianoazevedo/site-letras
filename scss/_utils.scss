@@ -1,0 +1,38 @@
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding-right{
+    padding-right: 0;
+}
+
+.no-border-radius{
+    border-radius: 0px;
+}
+
+@mixin build-no-margin-top($pixel) {
+    .margin-top-#{$pixel}{
+        margin-top: #{$pixel}px;
+    }
+}
+
+@include build-no-margin-top(10);
+@include build-no-margin-top(5);
+
+.width-full{
+    width: 100%;
+}
+
+.img-circle{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.background-gray-soft{
+    background: #CCC;
+}
