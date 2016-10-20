@@ -2,414 +2,509 @@
 <html>
 
 <head>
-	<title>Tela Bootstrap</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta charset="UTF-8">
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
-	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <title>Tela Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-	<nav class="navbar background-marca no-border-radius no-padding">
-		<div class="container no-padding">
-			<div class="col-sm-3 no-padding">
-				<i class="fa fa-bars fa-2x pull-left margin-top-10" aria-hidden="true"></i>
-				<img src="css/images/logo.png" class="img-responsive pull-left" />
-			</div>
-			<div class="col-sm-6 no-padding">
-				<div id="form-buscar">
-					<form role="form" class="no-margin">
-						<div class="form-group no-margin">
-							<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-							<div class="input-group margin-top-5">
-								<input type="text" class="form-control" id="exampleInputAmount" placeholder="O que deseja ouvir">
-								<div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-			<div class="col-sm-3 no-padding">
-				<a href="#" class="pull-right margin-top-10">Entrar</a>
-			</div>
-		</div>
-	</nav>
-	<div class="container margin-top-10">
-		<div class="row">
-			<ul class="nav nav-pills color-link">
-				<li class="nav-item">
-					<a class="nav-link active-btn" href="#">Active</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Disabled</a>
-				</li>
-			</ul>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12">
-				<div class="bg-info">
-					<div class="row">
+    <nav class="navbar background-marca no-border-radius no-padding">
+        <div class="container no-padding">
+            <div class="col-sm-3 no-padding">
+                <i class="fa fa-bars fa-2x pull-left margin-top-10" aria-hidden="true"></i>
+                <img src="css/images/logo.png" class="img-responsive pull-left" />
+            </div>
+            <div class="col-sm-6 no-padding">
+                <div id="form-buscar">
+                    <form role="form" class="no-margin">
+                        <div class="form-group no-margin">
+                            <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                            <div class="input-group margin-top-5">
+                                <input type="text" class="form-control" id="exampleInputAmount" placeholder="O que deseja ouvir">
+                                <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-3 no-padding">
+                <a href="#" class="pull-right margin-top-10">Entrar</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container margin-top-10">
+        <div class="row">
+            <ul class="nav nav-pills color-link">
+                <li class="nav-item">
+                    <a class="nav-link active-btn" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12">
+                <div class="bg-info">
+                    <div class="row">
 
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							</ol>
-							<div class="carousel-inner" role="listbox">
-								<div class="carousel-item active">
-									<img src="css/images/pub.jpg" alt="First slide">
-								</div>
-								<div class="carousel-item">
-									<img src="css/images/pub2.jpg" alt="Second slide">
-								</div>
-								<div class="carousel-item">
-									<img src="css/images/pub3.jpg" alt="Third slide">
-								</div>
-							</div>
-							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-								<span class="icon-prev" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-								<span class="icon-next" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12 no-padding">
-				<div class="row">
-					<div class="col-sm-8">
-						<h3 class="cor-marca">DÊ O PLAY E FAÇA UMA VIAGEM MUSICAL</h3>
-					</div>
-					<div class="col-sm-4">
-						<span class="pull-right">Ver mais playlists <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
-					</div>
-				</div>
-				<div class="row font-text">
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais1.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Chile</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Javiera Mena, Gepe, Camila Moreno...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais2.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Espanha</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Melendi, La Mala Rodriguez, Estopa...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais3.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>França</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Claire Denamur, Eiffel, Zaza Fournier...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais4.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Uruguai</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Jorge Drexler, Ana Prada, Buitres...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12 no-padding">
-				<div class="row">
-					<div class="col-sm-6">
-						<h3 class="cor-marca">MÚSICAS RECOMENDADAS</h3>
-					</div>
-					<div class="col-sm-6 no-padding">
-						<a href="" class="btn pull-right cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir rádio com músicas recomendadas</a>
-					</div>
-				</div>
-				<div class="row margin-top-10 font-text">
-					<div class="col-sm-12 no-padding">
-						<div class="col-sm-3 no-padding-right">
-							<div class="col-sm-12 no-padding">
-								<img src="css/images/mu1.jpg" class="img img-responsive width-full">
-							</div>
-							<div class="col-sm-12 no-padding">
-								<h4>500 Graus</h4>
-							</div>
-							<div class="col-sm-12 no-padding">
-								<p>Cassiane</p>
-							</div>
-						</div>
-						<div class="col-sm-3 no-padding-right">
-							<div class="col-sm-12 no-padding">
-								<img src="css/images/mu2.jpg" class="img img-responsive width-full">
-							</div>
-							<div class="col-sm-12 no-padding">
-								<h4>Amigos Pela Fé</h4>
-							</div>
-							<div class="col-sm-12 no-padding">
-								<p>Anjos de Resgate</p>
-							</div>
-						</div>
-						<div class="col-sm-3 no-padding-right">
-							<div class="col-sm-12 no-padding">
-								<img src="css/images/mu3.jpg" class="img img-responsive width-full">
-							</div>
-							<div class="col-sm-12 no-padding">
-								<h4>Adorarei</h4>
-							</div>
-							<div class="col-sm-12 no-padding">
-								<p>Samuel Mariano</p>
-							</div>
-						</div>
-						<div class="col-sm-3 no-padding-right">
-							<div class="col-sm-12 no-padding">
-								<img src="css/images/mu4.jpg" class="img img-responsive width-full">
-							</div>
-							<div class="col-sm-12 no-padding">
-								<h4>A Tempestade Vai Passar</h4>
-							</div>
-							<div class="col-sm-12 no-padding">
-								<p>Padre Reginaldo Manzotti</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12 no-padding">
-				<div class="row">
-					<div class="col-sm-8">
-						<h3 class="cor-marca">ÁLBUNS RECOMENDADOS</h3>
-					</div>
-					<div class="col-sm-4">
-						<span class="pull-right">Ver mais álbuns <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
-					</div>
-				</div>
-				<div class="row font-text">
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais1.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Chile</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Javiera Mena, Gepe, Camila Moreno...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais2.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Espanha</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Melendi, La Mala Rodriguez, Estopa...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais3.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>França</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Claire Denamur, Eiffel, Zaza Fournier...</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="row">
-							<div class="col-sm-12">
-								<img src="css/images/pais4.jpg" class="img img-responsive">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<h4>Uruguai</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<p>Jorge Drexler, Ana Prada, Buitres...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12 no-padding">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="cor-marca">ARTISTAS RECOMENDADOS</h3>
-					</div>
-				</div>
-				<div class="row font-text">
-					<div class="col-sm-3">
-						<div class="col-sm-12 text-xs-center background-gray-soft">
-							<img src="css/images/pais1.jpg" class="img img-responsive img-circle">
-						</div>
-						<div class="col-sm-12">
-							<h4>Chile</h4>
-						</div>
-						<div class="col-sm-12">
-							<p>Javiera Mena, Gepe, Camila Moreno...</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="col-sm-12 text-xs-center background-gray-soft">
-							<img src="css/images/pais2.jpg" class="img img-responsive img-circle">
-						</div>
-						<div class="col-sm-12">
-							<h4>Espanha</h4>
-						</div>
-						<div class="col-sm-12">
-							<p>Melendi, La Mala Rodriguez, Estopa...</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="col-sm-12 text-xs-center background-gray-soft">
-							<img src="css/images/pais3.jpg" class="img img-responsive img-circle">
-						</div>
-						<div class="col-sm-12">
-							<h4>França</h4>
-						</div>
-						<div class="col-sm-12">
-							<p>Claire Denamur, Eiffel, Zaza Fournier...</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="col-sm-12 text-xs-center background-gray-soft">
-							<img src="css/images/pais4.jpg" class="img img-responsive img-circle">
-						</div>
-						<div class="col-sm-12">
-							<h4>Uruguai</h4>
-						</div>
-						<div class="col-sm-12">
-							<p>Jorge Drexler, Ana Prada, Buitres...</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row margin-top-10">
-			<div class="col-sm-12 no-padding">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="cor-marca">ARTISTAS RECOMENDADOS</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-			<div class="col-sm-2 text-xs-center">
-				<p>MPB</p>
-				<p>Lorem ipsum dolor sit amet</p>
-				<p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a><p>
-			</div>
-		</div>
-	</div>
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img src="css/images/pub.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="css/images/pub2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="css/images/pub3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="icon-prev" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="icon-next" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12 no-padding">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3 class="cor-marca">DÊ O PLAY E FAÇA UMA VIAGEM MUSICAL</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="pull-right">Ver mais playlists <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="row font-text">
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais1.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Chile</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Javiera Mena, Gepe, Camila Moreno...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais2.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Espanha</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Melendi, La Mala Rodriguez, Estopa...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais3.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>França</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Claire Denamur, Eiffel, Zaza Fournier...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais4.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Uruguai</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Jorge Drexler, Ana Prada, Buitres...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12 no-padding">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 class="cor-marca">MÚSICAS RECOMENDADAS</h3>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                        <a href="" class="btn pull-right cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir rádio com músicas recomendadas</a>
+                    </div>
+                </div>
+                <div class="row margin-top-10 font-text">
+                    <div class="col-sm-12 no-padding">
+                        <div class="col-sm-3 no-padding-right">
+                            <div class="col-sm-12 no-padding">
+                                <img src="css/images/mu1.jpg" class="img img-responsive width-full">
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <h4>500 Graus</h4>
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <p>Cassiane</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 no-padding-right">
+                            <div class="col-sm-12 no-padding">
+                                <img src="css/images/mu2.jpg" class="img img-responsive width-full">
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <h4>Amigos Pela Fé</h4>
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <p>Anjos de Resgate</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 no-padding-right">
+                            <div class="col-sm-12 no-padding">
+                                <img src="css/images/mu3.jpg" class="img img-responsive width-full">
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <h4>Adorarei</h4>
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <p>Samuel Mariano</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 no-padding-right">
+                            <div class="col-sm-12 no-padding">
+                                <img src="css/images/mu4.jpg" class="img img-responsive width-full">
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <h4>A Tempestade Vai Passar</h4>
+                            </div>
+                            <div class="col-sm-12 no-padding">
+                                <p>Padre Reginaldo Manzotti</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12 no-padding">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3 class="cor-marca">ÁLBUNS RECOMENDADOS</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <span class="pull-right">Ver mais álbuns <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="row font-text">
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais1.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Chile</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Javiera Mena, Gepe, Camila Moreno...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais2.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Espanha</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Melendi, La Mala Rodriguez, Estopa...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais3.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>França</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Claire Denamur, Eiffel, Zaza Fournier...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="css/images/pais4.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Uruguai</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Jorge Drexler, Ana Prada, Buitres...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12 no-padding">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="cor-marca">ARTISTAS RECOMENDADOS</h3>
+                    </div>
+                </div>
+                <div class="row font-text">
+                    <div class="col-sm-3">
+                        <div class="col-sm-12 text-xs-center background-gray-soft">
+                            <img src="css/images/pais1.jpg" class="img img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-12">
+                            <h4>Chile</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Javiera Mena, Gepe, Camila Moreno...</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="col-sm-12 text-xs-center background-gray-soft">
+                            <img src="css/images/pais2.jpg" class="img img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-12">
+                            <h4>Espanha</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Melendi, La Mala Rodriguez, Estopa...</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="col-sm-12 text-xs-center background-gray-soft">
+                            <img src="css/images/pais3.jpg" class="img img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-12">
+                            <h4>França</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Claire Denamur, Eiffel, Zaza Fournier...</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="col-sm-12 text-xs-center background-gray-soft">
+                            <img src="css/images/pais4.jpg" class="img img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-12">
+                            <h4>Uruguai</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>Jorge Drexler, Ana Prada, Buitres...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-sm-12 no-padding">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="cor-marca">ARTISTAS RECOMENDADOS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+            <div class="col-sm-2 text-xs-center">
+                <p>MPB</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p><a href="" class="btn cor-verde"><i class="fa fa-play" aria-hidden="true"></i> Ouvir playlist</a>
+                    <p>
+            </div>
+        </div>
+        <div id="menu-inferior" class="row">
+            <div class="row">
+                <button type="button" class="btn btn-link">músicas</button>
+                <button type="button" class="btn btn-link">top músicas</button>
+                <button type="button" class="btn btn-link">atualizações</button>
+                <button type="button" class="btn btn-link">lançamentos</button>
+                <button type="button" class="btn btn-link">playlists do letras</button>
+                <button type="button" class="btn btn-link">crie suas playlists</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">artistas</button>
+                <button type="button" class="btn btn-link">top artistas</button>
+                <button type="button" class="btn btn-link">top álbuns</button>
+                <button type="button" class="btn btn-link">A</button>
+                <button type="button" class="btn btn-link">B</button>
+                <button type="button" class="btn btn-link">C</button>
+                <button type="button" class="btn btn-link">D</button>
+                <button type="button" class="btn btn-link">E</button>
+                <button type="button" class="btn btn-link">F</button>
+                <button type="button" class="btn btn-link">G</button>
+                <button type="button" class="btn btn-link">H</button>
+                <button type="button" class="btn btn-link">I</button>
+                <button type="button" class="btn btn-link">J</button>
+                <button type="button" class="btn btn-link">K</button>
+                <button type="button" class="btn btn-link">L</button>
+                <button type="button" class="btn btn-link">M</button>
+                <button type="button" class="btn btn-link">N</button>
+                <button type="button" class="btn btn-link">O</button>
+                <button type="button" class="btn btn-link">P</button>
+                <button type="button" class="btn btn-link">Q</button>
+                <button type="button" class="btn btn-link">R</button>
+                <button type="button" class="btn btn-link">S</button>
+                <button type="button" class="btn btn-link">T</button>
+                <button type="button" class="btn btn-link">U</button>
+                <button type="button" class="btn btn-link">V</button>
+                <button type="button" class="btn btn-link">W</button>
+                <button type="button" class="btn btn-link">X</button>
+                <button type="button" class="btn btn-link">Y</button>
+                <button type="button" class="btn btn-link">Z</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">participe</button>
+                <button type="button" class="btn btn-link">crie seu perfil musical</button>
+                <button type="button" class="btn btn-link">envie albúns</button>
+                <button type="button" class="btn btn-link">envie letras</button>
+                <button type="button" class="btn btn-link">correções de letras</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">aplicativos</button>
+                <button type="button" class="btn btn-link">android</button>
+                <button type="button" class="btn btn-link">iphone</button>
+                <button type="button" class="btn btn-link">windows phone</button>
+                <button type="button" class="btn btn-link">windows 8</button>
+                <button type="button" class="btn btn-link">media player, winamp e itunes</button>
+                <button type="button" class="btn btn-link">letras mobile</button>
+                <button type="button" class="btn btn-link">letras no google chrome</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">sobre o site</button>
+                <button type="button" class="btn btn-link">ajuda</button>
+                <button type="button" class="btn btn-link">anuncie no letras</button>
+                <button type="button" class="btn btn-link">termos de uso e política de privacidade</button>
+                <button type="button" class="btn btn-link">regras</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">redes sociais</button>
+                <button type="button" class="btn btn-link">F</button>
+                <button type="button" class="btn btn-link">T</button>
+                <button type="button" class="btn btn-link">seguir</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-link">idiomas</button>
+                <button type="button" class="btn btn-link"><i class="fa fa-flag-o" aria-hidden="true"> ver en español </i></button>
+                <button type="button" class="btn btn-link"><i class="fa fa-flag-o" aria-hidden="true"> see in english </i></button>
+                <button type="button" class="btn btn-link">seguir</button>
+            </div>
+        </div>
+        <footer>
+
+            <div class="col-sm-2 text-left">
+                Feito em Belo Horizonte
+            </div>
+            <div class="col-sm-8 text-center no-padding">
+                2.4 milhões de músicas · Site de música mais acessado do Brasil · 60.8 Milhões de visitas em Setembro
+            </div>
+            <div class="col-sm-2 text-right no-padding">
+                2003 - 2016
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
