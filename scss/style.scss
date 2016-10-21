@@ -1,51 +1,75 @@
 @import "colors";
 @import "utils";
-
 .background-marca {
-  background: $cor-marca;
+    background: $cor-marca;
 }
 
 nav {
-  i {
-    color: #fff;
-  }
-
-  a {
-    color: #fff;
-    font-weight: bold;
-
-    &:hover {
-      text-decoration: none;
+    i {
+        color: #fff;
     }
-  }
+    a {
+        color: #fff;
+        font-weight: bold;
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .color-link {
-  a {
-    color: #fff;
-
-    &:not(.active-btn) {
-      color: $cor-botao;
+    a {
+        color: #fff;
+        &:not(.active-btn) {
+            color: $cor-botao;
+        }
     }
-  }
 }
 
 .active-btn {
-  background-color: $cor-botao;
+    background-color: $cor-botao;
 }
 
-.cor-marca{
+.cor-marca {
     color: $cor-marca;
 }
 
-.cor-verde{
+.cor-verde {
     background: $cor-verde;
     color: #fff;
 }
 
-.font-text{
-    p{
+.font-text {
+    p {
         font-size: 13px;
         color: #999;
     }
+}
+
+.background-artist {
+    background: url('./images/download.jpg');
+    background-repeat: no-repeat;
+    width: 24%;
+    p {
+        color: #FFF;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
+
+footer {
+    font-size: 11px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: none;
+    background: #C2C800;
+    color: #fff;
+}
+
+.bg-roxo {
+    background: #8755BB;
+    color: #fff;
+    width: 100%;
+    font-size: 35px;
 }
