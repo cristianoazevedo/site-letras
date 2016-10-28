@@ -12,6 +12,18 @@ module.exports = function(grunt) {
             }
         },
         
+        sass: {
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: 'sass',
+                    src: ['*.scss'],
+                    dest: 'css',
+                    ext: '.css'
+                }]
+            }
+        },
+
         cssmin : {
             target : {
                 files : {
@@ -36,16 +48,31 @@ module.exports = function(grunt) {
                 src: '*',
                 dest: 'dist/images/'
             }
-        }
+        },
+
+        csslint: {
+            options: {
+                ids: false
+            },
+            strict: {
+                src: ['css/*.css']
+            }
+        },
+
+        clean: [
+            "dist/*"
+        ]
     });
     
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    
     
     // Default task(s).
     grunt.registerTask('default', [
-        'uglify', 'cssmin', 'copy'
+        'uglify', 'sass', 'cssmin', 'copy'
     ]);
 };

@@ -95,4 +95,28 @@ footer {
   width: 100%;
   font-size: 35px; }
 
+.color-text {
+  color: #F60; }
+
+#list-top {
+  padding-top: 20px; }
+
+.conteudo h5 {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-bottom: 0px; }
+
+.conteudo p {
+  font-size: 14px;
+  margin-top: 0px;
+  color: #999; }
+
+#list-top h1 {
+  color: #999; }
+
+#list p {
+  margin-top: 25px;
+  color: #C2C800;
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
